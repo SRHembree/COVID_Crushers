@@ -2411,7 +2411,7 @@ hr {
     font-size: 22px;
     font-style: normal;
     color: white;
-    background-color: #709189;
+    background-color: #9C8067;
 }
 .card-bottom {
     font-family: "roboto-condensed";
@@ -2477,26 +2477,26 @@ h3 {
     width: 100%;
 }
 .processTiles1 {
-    background-color: #ECC19B;
+    background-color: #709189;
     margin-bottom: 10px;
 }
 .processTiles2 {
-    background-color: #E5584C;
+    background-color: #ECC19B;
     margin-bottom: 10px;
 }
 .processTiles3 {
-    background-color: #709189;
+    background-color: #E5584C;
     margin-bottom: 10px;
 }
 .card-title2 {
     font-family: "roboto";
-    color: white;
+    color: black;
     font-style: bold;
     font-size: 20px;
 }
 .card-title1 {
     font-family: "roboto";
-    color: black;
+    color: white;
     font-style: bold;
     font-size: 20px;
 }
@@ -2514,13 +2514,13 @@ h3 {
 }
 .card-text1 {
     font-family: "roboto-condensed";
-    color: black;
+    color: white;
     font-style: italic;
     font-size: 15px;
 }
 .card-text2 {
     font-family: "roboto-condensed";
-    color: white;
+    color: black;
     font-style: italic;
     font-size: 15px;
 }
