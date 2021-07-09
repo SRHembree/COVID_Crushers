@@ -67,7 +67,7 @@
             top: 10%; 
             width: 100%; 
             height: 100em; 
-            z-index: 0; 
+            z-index: 0;  
         }
         .flower {
             position: absolute;
@@ -573,32 +573,6 @@ filter: drop-shadow(2px 2px 0 white)
         box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
         padding-left: 5px; 
     }
-    .flowerContainer {
-        background-size: 160px; 
-        overflow: hidden; 
-        position: absolute; 
-        left: -.75em; 
-        top: 235%; 
-        width: 100%; 
-        height: 300%; 
-        z-index: 0; 
-    }
-    .flower {
-        position: absolute;
-        width: 100%;
-    }
-    .flower img {
-        width: 105%; 
-        animation: big-spin 160s linear infinite; 
-    }
-    @keyframes big-spin {
-        0% {
-           transform: rotate(0deg);
-        }
-        100% {
-           transform: rotate(360deg);
-        }
-    }
     .flowerFooter {
         background-size: 40px; 
         overflow: hidden; 
@@ -710,32 +684,6 @@ filter: drop-shadow(2px 2px 0 white)
         box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
         padding-left: 5px; 
     }
-    .flowerContainer {
-        background-size: 160px; 
-        overflow: hidden; 
-        position: absolute; 
-        left: -.75em; 
-        top: 165%; 
-        width: 103%; 
-        height: 300%; 
-        z-index: 0; 
-    }
-    .flower {
-        position: absolute;
-        width: 100%;
-    }
-    .flower img {
-        width: 105%; 
-        animation: big-spin 160s linear infinite; 
-    }
-    @keyframes big-spin {
-        0% {
-           transform: rotate(0deg);
-        }
-        100% {
-           transform: rotate(360deg);
-        }
-    }
     .backgroundCS {
         padding-left:20px;
         padding-right: 20px;
@@ -846,32 +794,6 @@ filter: drop-shadow(2px 2px 0 white)
          color: #9A9999; 
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
-     }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
      }
      .backgroundCS {
          padding-left:20px;
@@ -1082,32 +1004,6 @@ filter: drop-shadow(2px 2px 0 white)
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
      }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
-     }
      .backgroundCS {
          padding-left:20px;
          padding-right: 20px;
@@ -1219,32 +1115,6 @@ filter: drop-shadow(2px 2px 0 white)
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
      }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
-     }
      .backgroundCS {
          padding-left:20px;
          padding-right: 20px;
@@ -1355,32 +1225,6 @@ filter: drop-shadow(2px 2px 0 white)
          color: #9A9999; 
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
-     }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
      }
      .backgroundCS {
          padding-left:20px;
@@ -1542,32 +1386,6 @@ filter: drop-shadow(2px 2px 0 white)
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
      }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
-     }
      .backgroundCS {
          padding-left:20px;
          padding-right: 20px;
@@ -1678,32 +1496,6 @@ filter: drop-shadow(2px 2px 0 white)
          color: #9A9999; 
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
-     }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
      }
      .backgroundCS {
          padding-left:20px;
@@ -1816,32 +1608,6 @@ filter: drop-shadow(2px 2px 0 white)
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
      }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
-     }
      .backgroundCS {
          padding-left:20px;
          padding-right: 20px;
@@ -1952,32 +1718,6 @@ filter: drop-shadow(2px 2px 0 white)
          color: #9A9999; 
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
-     }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
      }
      .backgroundCS {
          padding-left:20px;
@@ -2090,32 +1830,6 @@ filter: drop-shadow(2px 2px 0 white)
          box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
          padding-left: 5px; 
      }
-     .flowerContainer {
-         background-size: 160px; 
-         overflow: hidden; 
-         position: absolute; 
-         left: -.75em; 
-         top: 165%; 
-         width: 103%; 
-         height: 300%; 
-         z-index: 0; 
-     }
-     .flower {
-         position: absolute;
-         width: 100%;
-     }
-     .flower img {
-         width: 105%; 
-         animation: big-spin 160s linear infinite; 
-     }
-     @keyframes big-spin {
-         0% {
-            transform: rotate(0deg);
-         }
-         100% {
-            transform: rotate(360deg);
-         }
-     }
      .backgroundCS {
          padding-left:20px;
          padding-right: 20px;
@@ -2227,33 +1941,6 @@ filter: drop-shadow(2px 2px 0 white)
         color: #9A9999; 
         box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
     }
-    .flowerContainer {
-        background-size: 160px; 
-        overflow: hidden; 
-        position: absolute; 
-        left: -4em; 
-        top: -50%; 
-        width: 60%; 
-        height: 300%; 
-        z-index: 0; 
-    }
-    .flower {
-        position: absolute;
-        left: 0%;
-        top: 57em;
-    }
-    .flower img {
-        width: 100%; 
-        animation: big-spin 160s linear infinite; 
-    }
-    @keyframes big-spin {
-        0% {
-           transform: rotate(0deg);
-        }
-        100% {
-           transform: rotate(360deg);
-        }
-    }
     .backgroundCS {
         padding-left:70px;
         padding-right: 70px;
@@ -2340,6 +2027,7 @@ html {
     padding-top: 2em;
     padding-bottom: 2em;
     width: 100%; 
+    z-index: -100;
 }
 /* <!-- Nav CSS --> */
 #dropdownMenuLink {
@@ -2450,7 +2138,7 @@ h3 {
     color: #ECC19B;
     border-style: solid;
     border-radius: 5px;
-    z-index: 0;
+    z-index: 1;
 }
 .protoVisuals2 img {
     margin: auto; 
@@ -2460,7 +2148,7 @@ h3 {
     color: #E5584C;
     border-style: solid;
     border-radius: 5px;
-    z-index: 0;
+    z-index: 1;
 }
 .protoVisuals3 img {
     margin: auto; 
@@ -2470,7 +2158,7 @@ h3 {
     color: #9BAFAA;
     border-style: solid;
     border-radius: 5px;
-    z-index: 0;
+    z-index: 1;
 }
 .competitorAnalysis img {
     height: auto;
