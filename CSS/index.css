@@ -171,6 +171,22 @@
         overflow-y: auto;
         position: relative;
     }
+    #tocsection {
+        display: none;
+        visibility: hidden;
+    }
+    .toc {
+        display: none;
+        visibility: hidden;
+    }
+    #tableOfContents {
+        display: none; 
+        visibility: hidden;
+    }
+    .toc-section {
+        display: none;
+        visibility: hidden;
+    }
     .d-sm-block {
         display: block!important;
     }
@@ -484,6 +500,58 @@
     }
 }
 @media only screen and (max-width: 995px) {
+    .flowerFooter {
+        background-size: 40px; 
+        overflow: hidden; 
+        position: absolute; 
+        transform: translateY(-2%);
+        width: 100%; 
+        height: 50%; 
+        z-index: 0; 
+    }
+    .flowerPower {
+        position: relative;
+    }
+    .flowerPower img {
+        width: 100%; 
+        animation: big-spin 160s linear infinite;
+    }
+    @keyframes big-spin {
+        0% {
+           transform: rotate(0deg);
+        }
+        100% {
+           transform: rotate(360deg);
+        }
+    }
+    .socials {
+        padding: 0px !important;
+        color: white;
+    }
+    .socials:hover {
+        color: #E5584C;
+    }
+    .icon-background {
+        color: #686868;
+    }
+    .footerElements {
+        margin: auto;
+        text-align: center;
+    }
+    .footerLogo img {
+        margin: auto;
+        display: block;
+        -webkit-filter: drop-shadow(2px 2px 0 white)
+        drop-shadow(-2px 2px 0 white)
+        drop-shadow(2px -2px 0 white)
+        drop-shadow(-2px -2px 0 white);
+
+    filter: drop-shadow(2px 2px 0 white)
+            drop-shadow(-2px 2px 0 white)
+            drop-shadow(2px -2px 0 white)
+            drop-shadow(-2px -2px 0 white);
+            /* margin-right: 5% !important; */
+    }
     #dropdownMenuLink {
         background-color: white;
         color: #0D1D21 !important;
@@ -515,6 +583,45 @@
         font-family: "Gill Sans",Helvetica,Arial,sans-serif;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .d-none {
+        display: none!important;
+    }
+    .backgroundCS {
+        padding-left:20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        background-color: white;
+        border-radius: 20px;
+        position: relative;
+    }
+    .flowerContainer {
+        display: none;
+        visibility: hidden;
+    }
+    .flower {
+        visibility: hidden;
+        display: none;
+    }
+    .flower img {
+        display: none;
+        visibility: hidden;
+    }
+    #tocsection {
+        display: none;
+        visibility: hidden;
+    }
+    .toc {
+        display: none;
+        visibility: hidden;
+    }
+    #tableOfContents {
+        display: none; 
+        visibility: hidden;
+    }
+    .toc-section {
+        display: none;
+        visibility: hidden;
     }
 }
 html {
