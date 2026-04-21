@@ -721,7 +721,7 @@ h3 {
     height: auto;
     max-width: 100%;
     border: 3;
-    color: #ECC19B;
+    color: #4a5e45;
     border-style: solid;
     border-radius: 5px;
     z-index: 1;
@@ -741,7 +741,7 @@ h3 {
     height: auto;
     max-width: 100%;
     border: 3;
-    color: #9BAFAA;
+    color: #50406d;
     border-style: solid;
     border-radius: 5px;
     z-index: 1;
@@ -764,7 +764,7 @@ h3 {
 }
 .card-title2 {
     font-family: "roboto";
-    color: black;
+    color: white;
     font-style: bold;
     font-size: 20px;
 }
@@ -776,13 +776,13 @@ h3 {
 }
 .card-title {
     font-family: "futura-pt";
-    color: black;
+    color: white;
     font-style: normal;
     font-size: 22px;
 }
 .card-text {
     font-family: "roboto-condensed";
-    color: black;
+    color: white;
     font-style: italic;
     font-size: 15px;
 }
@@ -794,7 +794,7 @@ h3 {
 }
 .card-text2 {
     font-family: "roboto-condensed";
-    color: black;
+    color: white;
     font-style: italic;
     font-size: 15px;
 }
